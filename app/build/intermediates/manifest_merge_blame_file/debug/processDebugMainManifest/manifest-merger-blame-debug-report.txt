@@ -1,0 +1,78 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.screensharer"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\bluef\OneDrive\Documents\GitHub\ScreenSharer\app\src\main\AndroidManifest.xml:2:5-67
+11-->C:\Users\bluef\OneDrive\Documents\GitHub\ScreenSharer\app\src\main\AndroidManifest.xml:2:22-64
+12    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+12-->C:\Users\bluef\OneDrive\Documents\GitHub\ScreenSharer\app\src\main\AndroidManifest.xml:3:5-77
+12-->C:\Users\bluef\OneDrive\Documents\GitHub\ScreenSharer\app\src\main\AndroidManifest.xml:3:22-74
+13    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION" />
+13-->C:\Users\bluef\OneDrive\Documents\GitHub\ScreenSharer\app\src\main\AndroidManifest.xml:4:5-94
+13-->C:\Users\bluef\OneDrive\Documents\GitHub\ScreenSharer\app\src\main\AndroidManifest.xml:4:22-91
+14
+15    <uses-feature
+15-->C:\Users\bluef\OneDrive\Documents\GitHub\ScreenSharer\app\src\main\AndroidManifest.xml:5:5-87
+16        android:name="android.software.leanback"
+16-->C:\Users\bluef\OneDrive\Documents\GitHub\ScreenSharer\app\src\main\AndroidManifest.xml:5:19-59
+17        android:required="false" />
+17-->C:\Users\bluef\OneDrive\Documents\GitHub\ScreenSharer\app\src\main\AndroidManifest.xml:5:60-84
+18
+19    <application
+19-->C:\Users\bluef\OneDrive\Documents\GitHub\ScreenSharer\app\src\main\AndroidManifest.xml:7:5-28:19
+20        android:allowBackup="false"
+20-->C:\Users\bluef\OneDrive\Documents\GitHub\ScreenSharer\app\src\main\AndroidManifest.xml:8:9-36
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:label="ScreenSharer"
+23-->C:\Users\bluef\OneDrive\Documents\GitHub\ScreenSharer\app\src\main\AndroidManifest.xml:9:9-37
+24        android:theme="@android:style/Theme.Material.NoActionBar" >
+24-->C:\Users\bluef\OneDrive\Documents\GitHub\ScreenSharer\app\src\main\AndroidManifest.xml:10:9-66
+25        <activity
+25-->C:\Users\bluef\OneDrive\Documents\GitHub\ScreenSharer\app\src\main\AndroidManifest.xml:11:9-23:20
+26            android:name="com.screensharer.MainActivity"
+26-->C:\Users\bluef\OneDrive\Documents\GitHub\ScreenSharer\app\src\main\AndroidManifest.xml:12:13-41
+27            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+27-->C:\Users\bluef\OneDrive\Documents\GitHub\ScreenSharer\app\src\main\AndroidManifest.xml:13:13-83
+28            android:exported="true" >
+28-->C:\Users\bluef\OneDrive\Documents\GitHub\ScreenSharer\app\src\main\AndroidManifest.xml:14:13-36
+29            <intent-filter>
+29-->C:\Users\bluef\OneDrive\Documents\GitHub\ScreenSharer\app\src\main\AndroidManifest.xml:15:13-18:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\bluef\OneDrive\Documents\GitHub\ScreenSharer\app\src\main\AndroidManifest.xml:16:17-69
+30-->C:\Users\bluef\OneDrive\Documents\GitHub\ScreenSharer\app\src\main\AndroidManifest.xml:16:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\bluef\OneDrive\Documents\GitHub\ScreenSharer\app\src\main\AndroidManifest.xml:17:17-77
+32-->C:\Users\bluef\OneDrive\Documents\GitHub\ScreenSharer\app\src\main\AndroidManifest.xml:17:27-74
+33            </intent-filter>
+34            <intent-filter>
+34-->C:\Users\bluef\OneDrive\Documents\GitHub\ScreenSharer\app\src\main\AndroidManifest.xml:19:13-22:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\Users\bluef\OneDrive\Documents\GitHub\ScreenSharer\app\src\main\AndroidManifest.xml:16:17-69
+35-->C:\Users\bluef\OneDrive\Documents\GitHub\ScreenSharer\app\src\main\AndroidManifest.xml:16:25-66
+36
+37                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+37-->C:\Users\bluef\OneDrive\Documents\GitHub\ScreenSharer\app\src\main\AndroidManifest.xml:21:17-86
+37-->C:\Users\bluef\OneDrive\Documents\GitHub\ScreenSharer\app\src\main\AndroidManifest.xml:21:27-83
+38            </intent-filter>
+39        </activity>
+40
+41        <service
+41-->C:\Users\bluef\OneDrive\Documents\GitHub\ScreenSharer\app\src\main\AndroidManifest.xml:24:9-27:63
+42            android:name="com.screensharer.ScreenShareService"
+42-->C:\Users\bluef\OneDrive\Documents\GitHub\ScreenSharer\app\src\main\AndroidManifest.xml:25:13-47
+43            android:exported="false"
+43-->C:\Users\bluef\OneDrive\Documents\GitHub\ScreenSharer\app\src\main\AndroidManifest.xml:26:13-37
+44            android:foregroundServiceType="mediaProjection" />
+44-->C:\Users\bluef\OneDrive\Documents\GitHub\ScreenSharer\app\src\main\AndroidManifest.xml:27:13-60
+45    </application>
+46
+47</manifest>
