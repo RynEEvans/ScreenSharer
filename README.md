@@ -4,13 +4,15 @@ ScreenSharer is an experimental Android screen-mirroring app. Install the same A
 
 ## Status
 
-This is an early MVP, not a polished or published release. The receiver connects by manually entered phone IP address; automatic device discovery is not implemented. There is no hosted APK release in this repository. The app streams video only, supports one receiver at a time, and has not been verified across Fire TV models.
+This is an early MVP, not a polished production release. The receiver connects by manually entered phone IP address; automatic device discovery is not implemented. A debug-signed preview APK is available from the GitHub pre-release. The app streams video only, supports one receiver at a time, and has not been verified across Fire TV models.
 
 ## Download Or Build
 
 ### Use an APK from this workspace
 
-If the APK has already been built in this workspace, <a href="app/build/outputs/apk/debug/app-debug.apk" download="ScreenSharer.apk">click here to download ScreenSharer</a>. Build output is not included in a fresh clone. To make this link work for everyone viewing the repository online, publish the APK as a GitHub Release asset or add the APK to the repository.
+<a href="https://github.com/RynEEvans/ScreenSharer/releases/download/v1.0.0-preview.1/ScreenSharer-1.0-preview.apk">Download ScreenSharer 1.0 Preview APK</a> (debug-signed; for testing only).
+
+Build output is not included in a fresh clone. To create a local APK, follow the build instructions below.
 
 ### Build the APK
 
