@@ -10,7 +10,7 @@ This is an early MVP, not a polished or published release. The receiver connects
 
 ### Use an APK from this workspace
 
-If the APK has already been built, download [app-debug.apk](app/build/outputs/apk/debug/app-debug.apk). Build output is ignored by Git and is not included in a fresh clone, so this link may not work when viewing the repository online.
+If the APK has already been built in this workspace, <a href="app/build/outputs/apk/debug/app-debug.apk" download="ScreenSharer.apk">click here to download ScreenSharer</a>. Build output is not included in a fresh clone. To make this link work for everyone viewing the repository online, publish the APK as a GitHub Release asset or add the APK to the repository.
 
 ### Build the APK
 
